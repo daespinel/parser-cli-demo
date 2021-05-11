@@ -11,7 +11,7 @@ setup(
         author='David Espinel',
         author_email='dafespinelsa@unal.edu.co',
         packages=find_packages('src'),
-        packages_dir={'':'src'},
+        package_dir={'':'src'},
         install_requires=[],
         entry_points={
             'console_scripts': 'hr=hr.cli:main'

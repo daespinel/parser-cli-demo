@@ -15,7 +15,7 @@ def main():
     # Creationg the parser and immediately have it start parsing the args
     args = create_parser().parse_args()
 
-    users = u.getch_users()
+    users = u.fetch_users()
 
     # If the path is passed, we are going to determine the file we are using and the passed format
     if args.path:
